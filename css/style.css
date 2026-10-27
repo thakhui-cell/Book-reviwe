@@ -1,0 +1,76 @@
+/* menu-bg */
+header {
+  background-color: #a9def9;
+  width: 100%;
+}
+
+/* content1-bg */
+.content-bg {
+  background-color: #fcf6bd;
+  width: 100%;
+}
+
+/* footer-bg */
+.footer-bg {
+  background-color: #a9def9;
+}
+
+/* ด้านบนข้างหนังสือ */
+h1 {
+    font-family: "Sriracha", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px !important;
+}
+
+/* หัวข้อแต่ละคอนเทนต์ */
+h2 {
+    font-family: "Kodchasan", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #0077b6;
+}
+
+/* เนื้อหาคำนำ */
+p {
+    font-family: "Playpen Sans Thai", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* รีวิวผู้อ่าน */
+.review-title {
+    font-family: "Kodchasan", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+/* ฟ้อนเอาไว้เรียกใช้ */
+.kodchasan-title {
+  font-family: "Kodchasan", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.playpen-sans-thai {
+  font-family: "Playpen Sans Thai", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sriracha {
+  font-family: "Sriracha", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* เลื่อนหน้าเว็บอย่างนุ่มนวลเมื่อคลิกเมนู */
+html {
+    scroll-behavior: smooth;
+}
+
+/* เว้นระยะด้านบน เผื่อ Header บังหัวข้อ */
+section {
+    scroll-margin-top: 80px;
+}
